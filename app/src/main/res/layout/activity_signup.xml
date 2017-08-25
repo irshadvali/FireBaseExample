@@ -28,13 +28,17 @@
             <EditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="16sp"
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true"
                 android:textColor="@android:color/white"
-                android:textColorHint="@android:color/white"/>
+                android:textColorHint="@android:color/white"
+                android:background="@drawable/edittext_bg"/>
 
 
 
@@ -42,7 +46,11 @@
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
                 android:focusableInTouchMode="true"
                 android:hint="@string/hint_password"
                 android:imeActionId="@+id/login"
@@ -52,7 +60,8 @@
                 android:singleLine="true"
                 android:textColorHighlight="@android:color/white"
                 android:textColor="@android:color/white"
-                android:textColorHint="@android:color/white"/>
+                android:textColorHint="@android:color/white"
+                android:background="@drawable/edittext_bg"/>
 
 
         <Button
